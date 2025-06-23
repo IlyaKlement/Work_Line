@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "800669885307",
+      "project_id": "workline-591c0",
+      "storage_bucket": "workline-591c0.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:800669885307:android:fb141f294602994d2093de",
+          "android_client_info": {
+            "package_name": "com.qlassco.work_line"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDs_1Njy6d3rhsZy2E8gfEptvz0oJKK85M"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
