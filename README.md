@@ -1,16 +1,39 @@
-# work_line
+# Work Line
 
-A new Flutter project.
+Приложение для учёта работы сотрудников и контроля этапов на производстве.
 
-## Getting Started
+Сделал для упрощения процессов: чтобы можно было быстро сканировать QR-код детали, отметить этап, посмотреть статистику, и всё это — без лишней бумажной волокиты.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Что умеет приложение:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Сканировать и генерировать QR-коды для деталей
+- Делить пользователей по ролям (сотрудник, руководитель, админ)
+- Показывать текущий этап и завершённые
+- Считать KPI по сотрудникам с учётом отработанных часов и брака
+- Показывать статистику по дням, неделям, месяцам
+- Сохранять шаблоны этапов производства, выбирать их при создании новой детали
+- Проверять этапы сотрудником ОТК (принято/брак)
+- Подключаться к Google Таблицам и загружать рабочие часы
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Используемые технологии:
+
+- Flutter / Dart
+- Firebase (Auth + Firestore)
+- Google Sheets API
+- Provider (или Riverpod, в зависимости от версии)
+- QR-коды (генерация и сканирование)
+- Локальное хранение с Shared Preferences
+
+---
+
+## Установка:
+
+```bash
+git clone https://github.com/IlyaKlement/Work_Line.git
+cd Work_Line
+flutter pub get
+flutter run
